@@ -1,16 +1,50 @@
+/* HMW make all items centered? */
+
 html {
-  background-color: black;
+ background-color: black;
+ text-align: center;
 }
 
-.header h1 {
+ h1, h2, h3, h4, p {
+   font-family: Verdana;
+   color: white;
+ }
+
+.headline h1 {
   color: white;
-  font-family: verdana;
   font-size: 50px;
-  align-content: center;
+}
+
+#cta {
+  color: aquamarine;
+  font-size: 16px;
+  text-decoration: underline;
 }
 
 .demo {
   background-image: url("../videos/excursion.mp4");
-  background-position: center;
-  height: 200px;
+}
+
+.travelguide h3 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.description p {
+  font-size: 21px;
+  color: gray;
+}
+
+#tent {
+  background-image: url("../resources/images/tent.jpg");
+}
+
+.phoneicon {
+  background-image: url("../images/phone.png");
+}
+
+#footer {
+  color: gray;
+  font-size: 14px;
+  text-align: right;
 }
