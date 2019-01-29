@@ -8,3 +8,9 @@ html {
   font-size: 50px;
   align-content: center;
 }
+
+.demo {
+  background-image: url("../videos/excursion.mp4");
+  background-position: center;
+  height: 200px;
+}
